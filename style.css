@@ -1,0 +1,8 @@
+body, .slide {
+  background-color: #fff;
+}
+
+#wrapper {
+  box-shadow: none;
+  border: 4px solid orange;
+}

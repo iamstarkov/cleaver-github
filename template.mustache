@@ -1,0 +1,17 @@
+
+
+<div id="wrapper">
+  {{#slides}}
+    <section class="slide">{{{.}}}</section>
+  {{/slides}}
+</div>
+{{#controls}}
+  <div class="controls">
+    <div class="arrow prev"></div>
+    <div class="arrow next"></div>
+  </div>
+{{/controls}}
+
+<script type="text/javascript">
+  {{{navigation}}}
+</script>
